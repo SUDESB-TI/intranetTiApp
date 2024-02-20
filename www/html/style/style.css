@@ -1,0 +1,69 @@
+@charset "utf-8";
+@font-face {
+  font-family: "NanumGothic-Regular";
+  src: url("fonts/NanumGothic/NanumGothic-Regular.ttf") format("woff2");
+}
+
+/* CSS Document */
+
+:root {
+  --sudesbColor: #022031;
+  --carouselColor: #d8d8d8;
+  --hoverBoxServices: #041f33;
+  --boxLinkServices: #ffffff58;
+  --boxLinkServicesHover: #ffffffe8;
+  --boxBirthday: #022031;
+  --font: "NanumGothic-Regular", sans-serif;
+}
+
+* {
+  font-family: var(--font);
+}
+
+.sudesbColor {
+  background-color: var(--sudesbColor);
+}
+
+.loginBackground {
+  background-image: linear-gradient(to bottom, #041f33, #3d5774);
+}
+
+.sectionForm {
+  background-color: #f5f5f5;
+}
+
+.sectionImages {
+  background-image: url("images/background.png");
+  background-size: cover;
+}
+
+.return {
+  left: 20;
+}
+
+.exit {
+   position: fixed;
+   left: 94%;
+   top: 88%;
+}
+
+.btnSubmit {
+  background-color: #bb2d3b;
+}
+
+.btnSubmit:hover {
+  background-color: #9c2733;
+}
+
+.scrollable-form {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.printersBox {
+  height: 270px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
